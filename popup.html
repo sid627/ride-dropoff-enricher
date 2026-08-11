@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BlaBlaCar Destination Enricher</title>
+  <style>
+    body { width: 240px; margin: 0; padding: 14px; color: #263238; font: 13px/1.4 system-ui, sans-serif; }
+    .row { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+    #status { margin-top: 8px; color: #607d86; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <label class="row">
+    <span>Show exact destination</span>
+    <input type="checkbox" id="toggle">
+  </label>
+  <div id="status" aria-live="polite"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
